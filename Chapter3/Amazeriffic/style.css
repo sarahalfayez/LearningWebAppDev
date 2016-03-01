@@ -1,52 +1,141 @@
-body {
+body{
   background: #f9e933;
-}
+  font-size: 100%;
 
-header, main, footer {
+}
+header, main, footer{
   min-width: 855px;
-}
 
-header .container, main .container, footer .container {
+}
+header .container, main .container, footer .container{
   max-width: 855px;
   margin: auto;
+  font-family: 'Droid Sans', sans-serif;
 }
-
-header {
+header{
   background: white;
   overflow: auto;
 }
-
-header h1 {
+header h1{
   float: left;
   width: 570px;
+  font-size: 3em;
+  color: #009900;
+  margin: 20px;
+  font-style: italic;
 }
-
-header nav {
+header nav{
   float: right;
   width: 285px;
-}
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.2em;
 
-main {
+}
+h1, h2, h3, h4, h5{
+  font-family: 'Ubuntu', sans-serif;
+}
+main{
   background: white;
   overflow: auto;
-}
 
-main .left {
+}
+main .left{
+  float: left;
+  width: 570px;
+  margin: 20px;
+}
+main .right{
+  float: right;
+  width: 285px;
+}
+main h1{
+  float: left;
+  width: 570px;
+  font-size: 2.5em;
+  color: #cc0000;
+  margin: 20px;
+}
+main p{
+  margin: 10px;
+  margin-bottom: 15px;
+}
+main ul{
+  margin: 10px;
+}
+main h2{
+  font-size: 1.5em;
+  color: #0000ff;
+  margin: 10px;
+}
+main h3{
+  font-size: 1.3em;
+  color: #0000ff;
+  margin: 10px;
+  padding-top: 30px;
+}
+main li{
+  margin: 10px;
+}
+.form_content {
+  margin: 15px;
+  font-size: 1.2em;
+}
+input[type=text], input[type=password]{
+ width: 50%;
+ padding: 10px 15px;
+ border: 2px solid green;
+}
+.submit{
+  margin: 15px;
+}
+ input[type=submit]{
+  width: 100%;
+  font-size: 1.3em;
+  background-color: green;
+  color: white;
+  border: none;
+
+}
+footer .left{
   float: left;
   width: 570px;
 }
-
-main .right {
+footer .sitemap{
   float: right;
   width: 285px;
 }
 
-footer .left {
-  float: left;
-  width: 570px;
+footer h5{
+  font-size: 1.2em;
+  color: #0000ff;
+  margin: 15px;
+  margin-top: 20px;
+  padding-top: 20px;
 }
+footer p{
+  font-size: 1em;
+  margin: 10px;
+}
+footer ul{
+  font-size: 1em;
+}
+.sitemap li{
+  margin: 10px;
+}
+.sitemap .left {
+  float: left;
+  width:130px;
 
-footer .sitemap {
+}
+.sitemap .right{
   float: right;
-  width: 285px;
+  width: 130px;
+
+}
+a{
+  color: red;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
 }
